@@ -18,7 +18,7 @@ module.exports = async function (context, req) {
             result = "You are overweight"
         }
         else{
-            result = "You are very overweight"
+            result = "You are very unhealthy"
         }
 
         context.res = {
